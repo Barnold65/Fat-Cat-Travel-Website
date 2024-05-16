@@ -1,0 +1,256 @@
+/* logo */
+  .logo {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+
+/* Hover on nav bar */
+
+.navhov:hover {
+  background-color: rgb(249, 179, 49);
+  border-radius: 5px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+/* Cover image style */
+    .coverimage {
+        width: 100%;
+        height: 500px;
+    }
+
+/* Container holding the image and the text */
+.container-tm {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+  }
+
+/* Text on cover image */
+.middleright {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    word-wrap: break-word;
+  }
+
+  .middleleft {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-family: impact, fantasy;
+    font-size: 80px;
+    word-wrap: break-word;
+  }
+
+  @media only screen and (max-width: 600px) {
+  .middleright {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-62%, -30%);
+    width: 100%;
+    font-size: 15px;
+    word-wrap: break-word;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .middleleft {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-62%, -230%);
+    width: 90%;
+    font-family: impact, fantasy;
+    font-size: 30px;
+    word-wrap: break-word;
+  }
+}
+
+  /* Values */
+  .values {
+    text-align: center;
+    padding: 100px, 30px, 100px, 30px;
+    margin: 100px, 20px, 50px, 20px;;
+  }
+
+  .valuep {
+    text-align: center;
+    word-wrap: break-word;
+  }
+
+  /* destination title */
+  .countryTitle {
+    text-align: center;
+    font-family: impact, fantasy;
+    margin: 50px, 40px, 50px, 40px;
+    font-size: 50px;
+  }
+
+  /* See tour links */
+  .tourlink {
+    text-align: center;
+    font-family: fantasy;
+    text-decoration: none;
+    font-size: 40px;
+    background-color: orange;
+    color: whitesmoke;
+    border-color: rgb(151, 104, 16);
+    transition: transform .2s; /* Animation */
+  }
+
+  .tourhov:hover {
+    color-scheme: white;
+    transform: scale(1.1); 
+  }
+
+/* Subscribe form */
+/* Style the form element with a border around it */
+form {
+  float: center;
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+  padding: 20px;
+  -ms-flex-align: center;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: orange;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.footerfct {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+}
+
+/* Destination Pages */
+.desthead {
+  font-family: fantasy;
+}
+
+.destborder {
+  border-bottom: 5px solid orange;
+}
+
+/* Footer */
+
+.footer-clean {
+  padding:50px 0;
+  color:#4b4c4d;
+}
+
+.footer-clean h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-clean ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity:1;
+}
+
+.footer-clean .item.social {
+  text-align:right;
+}
+
+@media (max-width:767px) {
+  .footer-clean .item {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align:center;
+  }
+}
+
+.footer-clean .item.social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin-left:10px;
+  margin-top:22px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity:0.9;
+}
+
+@media (max-width:991px) {
+  .footer-clean .item.social > a {
+    margin-top:40px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer-clean .item.social > a {
+    margin-top:10px;
+  }
+}
+
+.footer-clean .copyright {
+  margin-top:14px;
+  margin-bottom:0;
+  font-size:13px;
+  opacity:0.6;
+}
+
+.footform {
+  display: none;
+}
